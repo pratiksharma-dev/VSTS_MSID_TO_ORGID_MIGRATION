@@ -9,7 +9,11 @@ Thus it is required to migrate the Microsoft account to Organization accounts. T
 Currently there is not proper tool available to achieve this task. Also the Client libraries and API's available cannot help us achieve all the objectives desired in this task. Therefore this project aims at development of a utility to automate migration of Microsoft accounts to Organization account using best tools available (client libraries / API's / console apps)
     
 Current Progress in this utility:
+
 i)	Adding users from AD to VSTS (Completed using client library)
+
 ii)	Assigning Organizational users to project teams and giving them appropriate permissions and group memberships as given to same user's Microsoft account (Pending)
+
 iii)	Re-assigning Work items from Microsoft Accounts to Organizational Accounts (Completed using REST API for VSTS)
+
 iv)	Deleting Microsoft Accounts from VSTS (Pending)
